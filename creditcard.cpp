@@ -2,11 +2,11 @@
 #include <string>
 using namespace std;
 
-// Create a function to check if a credit card number is valid
+//Create a function to check if a credit card number is valid
 bool isCreditCardValid(string cardNumber)
 {
-    int sum = 0; // Initialize the sum variable to zero
-    bool alternate = false; // Initialize the alternate variable to false
+    int sum = 0; //Initialize the sum variable to zero
+    bool alternate = false; //Initialize the alternate variable to false
     for (int i = cardNumber.length() - 1; i >= 0; i--)
     {
         int digit = cardNumber[i] - '0'; // Convert the character digit to an integer
@@ -31,12 +31,22 @@ int main()
     cin >> cardNumber; // Read the credit card number from the user
     if (isCreditCardValid(cardNumber)) // If the credit card number is valid, print a message
     {
-        cout << "Credit card number is valid." << endl;
+        cout<<"-------------------------------------------------"<<endl;
+        cout <<endl<< "CREDIT CARD NUMBER IS VALID." << endl <<endl;
+        cout<<"-------------------------------------------------"<<endl;
     }
     else // Otherwise, print a different message
     {
-        cout << "Credit card number is not valid." << endl;
+        cout<<"-------------------------------------------------"<<endl;
+        cout <<endl<< "CREDIT CARD NUMBER IS NOT VALID." << endl << endl;
+        cout<<"-------------------------------------------------"<<endl;
     }
+    cout<<endl<<endl<<"*************************************************"<<endl;
+    cout<<"* THIS PROGRAM IS PREPARED BY:-"<<"                 *"<<endl;
+    cout<<"* NAME--SAMARTH DHOL, ID---22CS020"<<"              *"<<endl;
+    cout<<"* NAME--JAIMIN KANERIYA, ID---22CS028"<<"           *"<<endl;
+    cout<<"* NAME--NISHIT GAJIPARA, ID---22CS022"<<"           *"<<endl;
+    cout<<"*************************************************"<<endl;
   return 0;
 }
 /*This program created by
