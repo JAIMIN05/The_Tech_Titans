@@ -49,7 +49,7 @@ int main()
     cout<<"-------------------------------------------------"<<endl;
     return 0;
 }
-/*VALID CREDIT CARD NUMBERS OF INPUT
+/*VALID CREDIT CARD NUMBERS FOR INPUT
 American Express ---> 371449635398431
 Diners Club      ---> 30569309025904
 Discover         ---> 6011111111111117
