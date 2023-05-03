@@ -55,6 +55,7 @@ int main()
     cout<<"-------------------------------------------------"<<endl;
     return 0;
 }
+//this program create using luhn algorithm
 /*VALID CREDIT CARD NUMBERS FOR INPUT
 American Express ---> 371449635398431
 Diners Club      ---> 30569309025904
