@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <limits.h>
+
 using namespace std;
 
 //Create a function to check if a credit card number is valid
@@ -11,7 +11,7 @@ bool is_Credit_Card_Valid(string cardNum)
     for (int i = cardNum.length() - 1; i >= 0; i--)
     {
         int digit = cardNum[i] - '0'; // Convert the character digit to an integer
-        if (alternate)
+        if (alternate==true)
         {
             digit *= 2; // Double the digit if it is in an alternate position
             if (digit > 9)
@@ -32,20 +32,13 @@ int main()
     cin >> cardNum; // Read the credit card number from the user
     if (is_Credit_Card_Valid(cardNum)) // If the credit card number is valid, print a message
     {
-        cout<<"---------------------------------------"
-        cout<<"---------------------------------------"
         cout<< "CREDIT CARD NUMBER IS VALID."<< endl;
-        cout<<"---------------------------------------"
-        cout<<"---------------------------------------"
     }
     else // Otherwise, print a different message
     {
-        cout<<"---------------------------------------"
-        cout<<"---------------------------------------"
         cout<< "CREDIT CARD NUMBER IS NOT VALID."<< endl;
-        cout<<"---------------------------------------"
-        cout<<"---------------------------------------"
     }
+    return 0;
 }
 
 
