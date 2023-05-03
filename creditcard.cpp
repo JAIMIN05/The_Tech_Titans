@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <limits.h>
 using namespace std;
 
 //Create a function to check if a credit card number is valid
@@ -32,13 +33,17 @@ int main()
     if (is_Credit_Card_Valid(cardNum)) // If the credit card number is valid, print a message
     {
         cout<<"---------------------------------------"
+        cout<<"---------------------------------------"
         cout<< "CREDIT CARD NUMBER IS VALID."<< endl;
+        cout<<"---------------------------------------"
         cout<<"---------------------------------------"
     }
     else // Otherwise, print a different message
     {
         cout<<"---------------------------------------"
+        cout<<"---------------------------------------"
         cout<< "CREDIT CARD NUMBER IS NOT VALID."<< endl;
+        cout<<"---------------------------------------"
         cout<<"---------------------------------------"
     }
 }
