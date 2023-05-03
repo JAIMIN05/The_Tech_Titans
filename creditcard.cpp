@@ -31,21 +31,17 @@ int main()
     cin >> cardNum; // Read the credit card number from the user
     if (is_Credit_Card_Valid(cardNum)) // If the credit card number is valid, print a message
     {
-       
-        cout<< "\"CREDIT CARD NUMBER IS VALID.\""<< endl;
-      
+        cout<<"---------------------------------------"
+        cout<< "CREDIT CARD NUMBER IS VALID."<< endl;
+        cout<<"---------------------------------------"
     }
     else // Otherwise, print a different message
     {
-        
-        cout<< "\"CREDIT CARD NUMBER IS NOT VALID.\""<< endl;
-     
+        cout<<"---------------------------------------"
+        cout<< "CREDIT CARD NUMBER IS NOT VALID."<< endl;
+        cout<<"---------------------------------------"
     }
 }
-//this program create using luhn algorithm
 
-/*THIS PROGRAM CREATED BY
- 22CS028 -> JAIMIN KANERIYA
- 22CS020 -> SAMARTH DHOL
- 22CS022 -> NISHIT GAJIPARA
-*/
+
+
