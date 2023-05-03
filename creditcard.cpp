@@ -9,7 +9,7 @@
 using namespace std;
 
 //Create a function to check if a credit card number is valid
-bool is_Credit_Card_Valid(string cardNum)
+bool is_Credit_Card_Valid(string cardNum)//bool data type, which can take the values true (1) or false (0).
 {
     int sum = 0; //Initialize the sum variable to zero
     bool alternate = false; //Initialize the alternate variable to false
