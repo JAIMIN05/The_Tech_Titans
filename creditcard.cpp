@@ -4,7 +4,7 @@ using namespace std;
 bool isCreditCardValid(string cardNumber)
 {
     int sum = 0;
-    bool alternate = true; 
+    bool alternate = false; 
     for (int i = cardNumber.length() - 1; i > 0; i--)
     {
         int digit = cardNumber[i] - '0'; 
