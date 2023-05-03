@@ -1,15 +1,9 @@
-/*THIS PROGRAM CREATED BY
- 22CS028 -> JAIMIN KANERIYA
- 22CS020 -> SAMARTH DHOL
- 22CS022 -> NISHIT GAJIPARA
-*/
-
 #include <iostream>
 #include <string>
 using namespace std;
 
 //Create a function to check if a credit card number is valid
-bool is_Credit_Card_Valid(string cardNum)//bool data type, which can take the values true (1) or false (0).
+bool is_Credit_Card_Valid(string cardNum)
 {
     int sum = 0; //Initialize the sum variable to zero
     bool alternate = false; //Initialize the alternate variable to false
@@ -55,7 +49,6 @@ int main()
     cout<<"-------------------------------------------------"<<endl;
     return 0;
 }
-//this program create using luhn algorithm
 /*VALID CREDIT CARD NUMBERS FOR INPUT
 American Express ---> 371449635398431
 Diners Club      ---> 30569309025904
@@ -63,4 +56,10 @@ Discover         ---> 6011111111111117
 JCB              ---> 3530111333300000
 MasterCard       ---> 5555555555554444
 Visa             ---> 4111111111111111
+*/
+
+/*THIS PROGRAM CREATED BY
+ 22CS028 -> JAIMIN KANERIYA
+ 22CS020 -> SAMARTH DHOL
+ 22CS022 -> NISHIT GAJIPARA
 */
