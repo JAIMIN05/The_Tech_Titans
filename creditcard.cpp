@@ -42,8 +42,7 @@ int main()
      
     }
 }
-
-
+//this program create using luhn algorithm
 
 /*THIS PROGRAM CREATED BY
  22CS028 -> JAIMIN KANERIYA
