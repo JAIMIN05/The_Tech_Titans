@@ -39,6 +39,8 @@ int main()
     }
   return 0;
 }
+//this program create using luhn algorithm
+
 /*This program created by
  22cs028 -> jaimin kaneriya
  22cs020 -> samarth Dhol
