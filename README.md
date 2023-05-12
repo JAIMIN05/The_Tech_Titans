@@ -1,5 +1,5 @@
 # The_Tech_Titans
-This credit card validator project is a collaborative effort by Samarth Dhol (ID-22CS020), Jaimin Kaneriya (ID-22CS028), and Nishit Gajipara (ID-22CS021).
+This credit card validator project is a collaborative effort by Samarth Dhol (ID-22CS020), Jaimin Kaneriya (ID-22CS028), and Nishit Gajipara (ID-22CS022).
 
 It is designed to validate credit card numbers using the Luhn algorithm, ensuring that they meet the standards set by major credit card companies.
 
